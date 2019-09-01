@@ -1,8 +1,12 @@
 #! /bin/bash
 
 # Set as environment variable
-# TOKEN=""
 
-INSTALL_SCRIPTS_URL=$(curl -Lks -H "Authorization: Bearer $TOKEN" https://anypoint.mulesoft.com/runtimefabric/api/installer/scripts/latest | jq -r '.url')
+ENDPOINT="https://anypoint.mulesoft.com/runtimefabric/api/downloads"
+BASE_URL="https://runtime-fabric.s3.amazonaws.com"
 
-printf "$INSTALL_SCRIPTS_URL \n"
+VERSION=$(curl -Lks -H "Authorization: Bearer $TOKEN" ${ENDPOINT} | jq -r '.scripts.version')
+
+SCRIPTS_URL="${BASE_URL}/install-scripts/rtf-install-scripts-${VERSION}.zip"
+
+printf "$SCRIPTS_URL \n"
