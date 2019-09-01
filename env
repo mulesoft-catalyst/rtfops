@@ -1,0 +1,7 @@
+# Anypoint Platform CloudHub
+# Runtime Fabric environment variables
+
+ORG_ID=
+ENV_ID=
+DEPLOYMENT_ID=
+FABRIC_ID=
