@@ -1,8 +1,22 @@
 #! /bin/bash
 
 # Set as environment variable
-# TOKEN=""
+source env
 
-INSTALLER_URL=$(curl -Lks -H "Authorization: Bearer $TOKEN" https://anypoint.mulesoft.com/runtimefabric/api/installer/package/latest | jq -r '.url')
+# OLD_ENDPOINT="https://anypoint.mulesoft.com/runtimefabric/api/installer/package/latest"
 
-echo $INSTALLER_URL
+# all metadata for rtf-agent, installer, scripts and rtfctl
+ENDPOINT="https://anypoint.mulesoft.com/runtimefabric/api/downloads"
+
+printf "all download metadata..."
+
+curl -Lks -H "Authorization: Bearer $TOKEN" ${ENDPOINT} | jq
+
+printf "\n"
+
+VERSION=$(curl -Lks -H "Authorization: Bearer $TOKEN" ${ENDPOINT} | jq -r '.installer.version')
+
+# assemble the installer url
+INSTALLER_URL="https://runtime-fabric.s3.amazonaws.com/installer/runtime-fabric-${VERSION}.tar.gz"
+
+printf "Latest Anypoint Runtime Fabric installer: \e[96m$INSTALLER_URL \n"
