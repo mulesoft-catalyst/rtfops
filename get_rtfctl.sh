@@ -1,7 +1,7 @@
 #! /bin/bash
 
 # set environment variables
-source env
+source ./env
 
 # all metadata for rtf-agent, installer, scripts and rtfctl
 ENDPOINT="https://anypoint.mulesoft.com/runtimefabric/api/downloads"
