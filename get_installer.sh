@@ -1,8 +1,5 @@
 #! /bin/bash
 
-# Set as environment variable
-source env
-
 # OLD_ENDPOINT="https://anypoint.mulesoft.com/runtimefabric/api/installer/package/latest"
 
 # all metadata for rtf-agent, installer, scripts and rtfctl
