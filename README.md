@@ -14,6 +14,7 @@ Happy Muley, happy Mule ;-)
 
 Anypoint Runtime Fabric Release Notes
 
+- [Runtime Fabric - (essentially a helm chart named `rtf-agent` in `rtf` namespace)](https://docs.mulesoft.com/release-notes/runtime-fabric/runtime-fabric-release-notes)
 - [Mule Runtime (containerized) Release Notes](https://docs.mulesoft.com/release-notes/runtime-fabric/runtime-fabric-runtimes-release-notes)
 - [Runtime Fabric Installer Release Notes](https://docs.mulesoft.com/release-notes/runtime-fabric/runtime-fabric-installer-release-notes)
 
