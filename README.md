@@ -10,6 +10,13 @@ NOTE: The scripts leverage Anypoint Platform REST APIs (CloudHub, Runtime Fabric
 
 Happy Muley, happy Mule ;-)
 
+# Reference
+
+Anypoint Runtime Fabric Release Notes
+
+- [Mule Runtime (containerized) Release Notes](https://docs.mulesoft.com/release-notes/runtime-fabric/runtime-fabric-runtimes-release-notes)
+- [Runtime Fabric Installer Release Notes](https://docs.mulesoft.com/release-notes/runtime-fabric/runtime-fabric-installer-release-notes)
+
 ```bash
 **********************************************************************
 *                                                                    *
