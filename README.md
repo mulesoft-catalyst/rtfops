@@ -10,6 +10,25 @@ NOTE: The scripts leverage Anypoint Platform REST APIs (CloudHub, Runtime Fabric
 
 Happy Muley, happy Mule ;-)
 
+# Usage
+
+Set the environment variables in `env` file
+
+```bash
+# read the environment variables
+source ./env
+
+# get access token
+./get_token.sh
+Enter username: username
+Enter password:
+Bearer token: n55b30t0-2f87-42b5-911r-a31402ff44c6
+
+export TOKEN=<bearer_token>
+
+# run the rtfops scripts
+```
+
 # Reference
 
 Anypoint Runtime Fabric Release Notes
