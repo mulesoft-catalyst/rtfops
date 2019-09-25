@@ -24,12 +24,14 @@ Enter username: username
 Enter password:
 Bearer token: n55b30t0-2f87-42b5-911r-a31402ff44c6
 
-export TOKEN=<bearer_token>
+export TOKEN="<bearer_token>"
 
 # run the rtfops scripts
 ```
 
 # Reference
+
+> NOTE: Runtime Manager -> Runtime Fabrics page now have a [Download page - authentication required](https://anypoint.mulesoft.com/cloudhub/#/console/home/runtimefabrics/artifacts) with all downloadable artifacts and release notes.
 
 Anypoint Runtime Fabric Release Notes
 
