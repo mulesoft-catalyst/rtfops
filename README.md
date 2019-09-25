@@ -33,6 +33,12 @@ export TOKEN="<bearer_token>"
 
 > NOTE: Runtime Manager -> Runtime Fabrics page now have a [Download page - authentication required](https://anypoint.mulesoft.com/cloudhub/#/console/home/runtimefabrics/artifacts) with all downloadable artifacts and release notes.
 
+Anypoint Runtime Fabric Artifacts
+
+- Install scripts (scripts to provision infrastructure on AWS and Azure, prepare each node and bootstrap a new RTF cluster)
+- Installer package (RTF cluster components, including `k8s`, Docker as CRI, `flannel` as CNI plugin and the Ops Center. The installer can be used to apply upgrades to the cluster - Yes! It's `gravity`)
+- rtfctl (A CLI util to manage RTF)
+
 Anypoint Runtime Fabric Release Notes
 
 - [Runtime Fabric - (essentially a helm chart named `rtf-agent` in `rtf` namespace)](https://docs.mulesoft.com/release-notes/runtime-fabric/runtime-fabric-release-notes)
