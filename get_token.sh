@@ -1,4 +1,4 @@
-#! /bin/bash
+#!/bin/bash
 
 ENDPOINT="https://anypoint.mulesoft.com/accounts/login"
 
