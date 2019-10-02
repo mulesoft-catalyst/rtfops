@@ -1,4 +1,4 @@
-#! /bin/bash
+#!/usr/bin/env bash
 
 # OLD_ENDPOINT="https://anypoint.mulesoft.com/runtimefabric/api/installer/package/latest"
 
