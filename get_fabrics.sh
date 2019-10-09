@@ -3,7 +3,7 @@
 # list rtf clusters registered under the org
 
 # set environment variables
-if [ -f ./env ]; then
+if [[ -f ./env ]]; then
     source ./env
 fi
 
