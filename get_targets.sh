@@ -10,5 +10,5 @@ fi
 ENDPOINT="https://anypoint.mulesoft.com/runtimefabric/api/organizations/${ORG_ID}/targets"
 
 curl -Lks ${ENDPOINT} \
-    -H "Authorization: Bearer $TOKEN" \
+    -H "Authorization: Bearer ${TOKEN}" \
     | jq
