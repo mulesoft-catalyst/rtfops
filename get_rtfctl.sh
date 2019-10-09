@@ -7,9 +7,9 @@ source ./env
 ENDPOINT="https://anypoint.mulesoft.com/runtimefabric/api/downloads"
 BASE_URL="https://runtime-fabric.s3.amazonaws.com"
 
-VERSION=$(curl -Lks -H "Authorization: Bearer $TOKEN" ${ENDPOINT} | jq -r '.rtfctl.version')
+VERSION=$(curl -Lks -H "Authorization: Bearer ${TOKEN}" ${ENDPOINT} | jq -r '.rtfctl.version')
 
 # assemble the installer url
 INSTALLER_URL="${BASE_URL}/rtfctl/rtfctl-${VERSION}"
 
-echo $INSTALLER_URL
+printf "${INSTALLER_URL} \n"
