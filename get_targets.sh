@@ -3,7 +3,7 @@
 # get the list of mule runtime image base versions and tags
 
 # set environment variables
-if [ -f ./env ]; then
+if [[ -f ./env ]]; then
     source ./env
 fi
 
