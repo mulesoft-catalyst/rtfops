@@ -29,6 +29,9 @@ export TOKEN="<bearer_token>"
 # run the rtfops scripts
 ```
 
+> NOTE: To avoid being dependent on the`env` file for setting environment variables, [`direnv`](https://direnv.net/) is highly recommended to enable per directory environment variables by leveraging a `.envrc` file, especially useful when working across multiple Org IDs.
+
+
 # Reference
 
 > NOTE: Runtime Manager -> Runtime Fabrics page now have a [Download page - authentication required](https://anypoint.mulesoft.com/cloudhub/#/console/home/runtimefabrics/artifacts) with all downloadable artifacts and release notes.
