@@ -7,5 +7,6 @@ List of APIs used
 - [Runtime Fabric API](https://anypoint.mulesoft.com/exchange/portals/anypoint-platform/f1e97bc6-315a-4490-82a7-23abe036327a.anypoint-platform/runtime-fabric/)
 - [AMC Application Manager API](https://anypoint.mulesoft.com/exchange/portals/anypoint-platform/f1e97bc6-315a-4490-82a7-23abe036327a.anypoint-platform/amc-application-manager/)
 - [AMC Deployment Target Registry](https://anypoint.mulesoft.com/exchange/portals/anypoint-platform/f1e97bc6-315a-4490-82a7-23abe036327a.anypoint-platform/amc-deployment-target-registry/)
+- [Secrets Manager API](https://anypoint.mulesoft.com/exchange/portals/anypoint-platform/f1e97bc6-315a-4490-82a7-23abe036327a.anypoint-platform/secrets-manager/)
 
 Reference: [Anypoint Platform Developer Portal](https://anypoint.mulesoft.com/exchange/portals/anypoint-platform/)
