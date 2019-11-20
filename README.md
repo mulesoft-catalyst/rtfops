@@ -47,6 +47,7 @@ Anypoint Runtime Fabric Release Notes
 - [Runtime Fabric - (essentially a helm chart named `rtf-agent` in `rtf` namespace)](https://docs.mulesoft.com/release-notes/runtime-fabric/runtime-fabric-release-notes)
 - [Mule Runtime (containerized) Release Notes](https://docs.mulesoft.com/release-notes/runtime-fabric/runtime-fabric-runtimes-release-notes)
 - [Runtime Fabric Installer (`gravity`) Release Notes](https://docs.mulesoft.com/release-notes/runtime-fabric/runtime-fabric-installer-release-notes)
+- [Anypoint Security Edge Release Notes](https://docs.mulesoft.com/release-notes/anypoint-security/anypoint-security-rtf-edge)
 
 > NOTE: Runtime release notes has the latest version tag info for each mule runtime version, which will be used to deploy applications via REST API (e.g. send as a part of the JSON body when sending a POST request to the AMC API endpoint).
 
