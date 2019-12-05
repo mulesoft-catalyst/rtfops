@@ -1,0 +1,35 @@
+{
+    "application": {
+      "configuration": {
+        "mule.agent.application.properties.service": {
+          "applicationName": "f87m2",
+          "properties": null
+        }
+      },
+      "desiredState": "STARTED",
+      "ref": {
+        "artifactId": "f87m2-1.0.0-mule-application",
+        "groupId": "ab6e8f37-5fef-4fbe-a404-50a3bd10a12b",
+        "packaging": "jar",
+        "version": "1.0.0"
+      }
+    },
+    "name": "f87m2",
+    "target": {
+      "deploymentSettings": {
+        "clusteringEnabled": false,
+        "cpuMax": "1000m",
+        "cpuReserved": "100m",
+        "lastMileSecurity": false,
+        "memoryMax": "1500Mi",
+        "memoryReserved": "900Mi",
+        "publicUrl": "https://f87m2.band.it",
+        "replicationFactor": 3,
+        "runtimeVersion": "4.2.1:v1.2.9"
+      },
+      "provider": "MC",
+      "replicas": 3,
+      "targetId": "6d0d3abd-21b8-4b72-2bb2-f27e6eca4570"
+    }
+  }
+  
