@@ -17,13 +17,24 @@
   "name": "f87m2",
   "target": {
     "deploymentSettings": {
-      "runtimeVersion": "4.2.1:v1.2.9",
-      "replicationFactor": 3,
-      "cpuMax": "1000m",
-      "cpuReserved": "50m",
-      "memoryMax": "1500Mi",
-      "memoryReserved": "900Mi",
-      "publicUrl": "f87m2.band.it",
+      "resources": {
+        "cpu": {
+          "limit": "1000m",
+          "reserved": "50m"
+        },
+        "memory": {
+          "limit": "2000Mi",
+          "reserved": "1000Mi"
+        }
+      },
+      "runtimeVersion": "4.2.1:v1.2.22",
+      "replicationFactor": "3"
+      "http": {
+        "inbound": {
+          "publicUrl": "f87m2.handsonlab.pro"
+        }
+      },
+      "updateStrategy": "rolling",
       "clusteringEnabled": false,
       "lastMileSecurity": false
     },
