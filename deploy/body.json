@@ -28,7 +28,6 @@
         }
       },
       "runtimeVersion": "4.2.1:v1.2.22",
-      "replicationFactor": "3"
       "http": {
         "inbound": {
           "publicUrl": "f87m2.handsonlab.pro"
