@@ -27,6 +27,7 @@
           "reserved": "1000Mi"
         }
       },
+      "jvm": {},
       "runtimeVersion": "4.2.1:v1.2.22",
       "http": {
         "inbound": {
