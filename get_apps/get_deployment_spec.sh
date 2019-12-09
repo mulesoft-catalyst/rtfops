@@ -6,7 +6,7 @@ if [[ -f ../env ]]; then
 fi
 
 # specify app deployment id
-DEPLOYMENT_ID=""
+# DEPLOYMENT_ID=${DEPLOYMENT:-DEFAULTVALUE}
 
 ENDPOINT="https://anypoint.mulesoft.com/hybrid/api/v2/organizations/${ORG_ID}/environments/${ENV_ID}/deployments/${DEPLOYMENT_ID}/specs"
 
