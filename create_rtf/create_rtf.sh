@@ -18,3 +18,6 @@ curl -Lvk -X POST \
     -H "Content-Type: application/json" \
     -d @rtf.json \
     | jq
+
+# activation token is base64 encoded one-time registration token
+# prefixed with "anypoint.mulesoft.com:"
