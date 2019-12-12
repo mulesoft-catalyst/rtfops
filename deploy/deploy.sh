@@ -1,11 +1,11 @@
-#! /bin/bash
+#!/usr/bin/env bash
 
 # deploy app to rtf cluster
 # asset needs to exist in exchange
 
 # set environment variables
-if [[ -f ./env ]]; then
-    source ./env
+if [[ -f ../env ]]; then
+    source ../env
 fi
 
 ENDPOINT="https://anypoint.mulesoft.com/hybrid/api/v2/organizations/${ORG_ID}/environments/${ENV_ID}/deployments"
