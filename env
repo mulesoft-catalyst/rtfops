@@ -28,8 +28,11 @@
 # Anypoint Platform CloudHub
 # Runtime Fabric environment variables
 
-
 ORG_ID=
 ENV_ID=
 DEPLOYMENT_ID=
 FABRIC_ID=
+
+# In Runtime Fabric REST API spec
+# groupId is the same as fabricId
+# GROUP_ID=
