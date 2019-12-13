@@ -2,9 +2,11 @@
 
 Anypoint Runtime Fabric Ops scripts
 
-Following the KISS philosophy, one script (command) does one task and (mean to) do it well, as the names suggest.
+Following the KISS philosophy, one script (command) does one task and does it well, as the names suggest.
 
-NOTE: The scripts leverage Anypoint Platform REST APIs (CloudHub, Runtime Fabric and AMC - Anypoint Management Center, etc.) and lovely `curl` to do all the hard work ;-)
+The scripts leverage Anypoint Platform REST APIs (CloudHub, Runtime Fabric and AMC - Anypoint Management Center, etc.) and lovely `curl` to do all the hard work ;-)
+
+> The initial intention was to improve productivity when implementing and working with Runtime Fabric, mainly via CLI of course. However, as the scripts evolve over time they become building blocks for CI/CD pipepines, can also integrate into other automation workflows beautifully. 
 
 `rtfops` scripts are actively maintained and constantly evolving.
 
@@ -29,8 +31,7 @@ export TOKEN="<bearer_token>"
 # run the rtfops scripts
 ```
 
-> NOTE: To avoid being dependent on the`env` file for setting environment variables, [`direnv`](https://direnv.net/) is highly recommended to enable per directory environment variables by leveraging a `.envrc` file, especially useful when working across multiple Org IDs.
-
+> NOTE: To avoid being dependent on the `env` file for setting environment variables, [`direnv`](https://direnv.net/) is highly recommended to enable per directory environment variables by leveraging a `.envrc` file, especially useful when working across multiple Org IDs.
 
 # Reference
 
