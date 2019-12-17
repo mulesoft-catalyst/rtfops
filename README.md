@@ -10,6 +10,14 @@ The scripts leverage Anypoint Platform REST APIs (CloudHub, Runtime Fabric and A
 
 `rtfops` scripts are actively maintained and constantly evolving.
 
+## To-Do List
+
+- [ ] Add support for associating RTF with Anypoint Platform Environments
+- [ ] Add support for sharing RTF across Organisation's Business Groups
+- [ ] Add support for basic Edge Ingress operations
+- [ ] Add support for Secrets Manager
+
+
 Happy Muley, happy Mule ;-)
 
 # Usage
