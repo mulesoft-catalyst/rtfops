@@ -6,7 +6,7 @@ Following the KISS philosophy, one script (command) does one task and does it we
 
 The scripts leverage Anypoint Platform REST APIs (CloudHub, Runtime Fabric and AMC - Anypoint Management Center, etc.) and lovely `curl` to do all the hard work ;-)
 
-> The initial intention was to improve productivity when implementing and working with Runtime Fabric, mainly via CLI of course. However, as the scripts evolve over time they become building blocks for CI/CD pipepines, can also integrate into other automation workflows beautifully. 
+> The initial intention was to improve productivity when implementing and working with Runtime Fabric, mainly via CLI of course. However, as the scripts evolve over time they become building blocks for CI/CD pipelines, can also integrate into other automation workflows beautifully. 
 
 `rtfops` scripts are actively maintained and constantly evolving.
 
