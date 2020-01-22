@@ -28,7 +28,7 @@
         }
       },
       "jvm": {},
-      "runtimeVersion": "4.2.1:v1.2.22",
+      "runtimeVersion": "4.2.2:v1.2.16",
       "http": {
         "inbound": {
           "publicUrl": "f87m2.handsonlab.pro"
