@@ -6,7 +6,7 @@
 ENDPOINT="https://anypoint.mulesoft.com/runtimefabric/api/downloads"
 BASE_URL="https://runtime-fabric.s3.amazonaws.com"
 
-printf "all download metadata..."
+printf "downloading metadata..."
 
 curl -Lks -H "Authorization: Bearer $TOKEN" ${ENDPOINT} | jq
 
