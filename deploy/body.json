@@ -28,14 +28,14 @@
         }
       },
       "jvm": {},
-      "runtimeVersion": "4.2.2:v1.2.16",
+      "runtimeVersion": "4.2.2:v1.2.34",
       "http": {
         "inbound": {
           "publicUrl": "f87m2.handsonlab.pro"
         }
       },
       "updateStrategy": "rolling",
-      "clusteringEnabled": false,
+      "clustered": false,
       "lastMileSecurity": false
     },
     "provider": "MC",
