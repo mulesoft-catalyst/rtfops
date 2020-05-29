@@ -3,9 +3,7 @@
 # rename a RTF cluster in runtime manager
 
 # set environment variables
-if [[ -f ../env ]]; then
-    source ../env
-fi
+[[ -f ../env ]] && source ../env
 
 ENDPOINT="https://anypoint.mulesoft.com/runtimefabric/api/organizations/${ORG_ID}/fabrics/${DEPLOYMENT_ID}"
 
