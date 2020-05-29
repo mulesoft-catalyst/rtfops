@@ -36,7 +36,8 @@
       },
       "updateStrategy": "rolling",
       "clustered": false,
-      "lastMileSecurity": false
+      "lastMileSecurity": false,
+      "enforceDeployingReplicasAcrossNodes": true
     },
     "provider": "MC",
     "replicas": 3,
