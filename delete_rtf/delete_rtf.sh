@@ -3,9 +3,7 @@
 # delete a rtf cluster using fabric id
 
 # set environment variables
-if [[ -f ../env ]]; then
-    source ../env
-fi
+[[ -f ../env ]] && source ../env
 
 ENDPOINT="https://anypoint.mulesoft.com/runtimefabric/api/organizations/${ORG_ID}/fabrics/${FABRIC_ID}"
 

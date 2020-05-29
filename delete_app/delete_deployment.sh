@@ -3,9 +3,7 @@
 # delete an app by deployment id
 
 # set environment variables
-if [[ -f ../env ]]; then
-    source ../env
-fi
+[[ -f ../env ]] && source ../env
 
 # app deployment id
 # DEPLOYMENT_ID=${DEPLOYMENT_ID:-DEFAULTVALUE}
