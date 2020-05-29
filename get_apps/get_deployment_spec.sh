@@ -1,9 +1,7 @@
 #!/usr/bin/env bash
 
 # set environment variables
-if [[ -f ../env ]]; then
-    source ../env
-fi
+[[ -f ../env ]] && source ../env
 
 # specify app deployment id
 # DEPLOYMENT_ID=${DEPLOYMENT:-DEFAULTVALUE}

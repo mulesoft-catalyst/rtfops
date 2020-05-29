@@ -4,9 +4,7 @@
 # asset needs to exist in exchange
 
 # set environment variables
-if [[ -f ../env ]]; then
-    source ../env
-fi
+[[ -f ../env ]] && source ../env
 
 ENDPOINT="https://anypoint.mulesoft.com/hybrid/api/v2/organizations/${ORG_ID}/environments/${ENV_ID}/deployments"
 

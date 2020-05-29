@@ -60,7 +60,11 @@ Anypoint Runtime Fabric Release Notes
 
 > NOTE: Runtime release notes has the latest version tag info for each mule runtime version, which will be used to deploy applications via REST API (e.g. send as a part of the JSON body when sending a POST request to the AMC API endpoint).
 
-> NOTE: `gravity` is self-contained k8s packaging solution. The installer includes k8s binaries and its dependencies, application container images, a private Docker registry, a monitoring and alerting system (based on `heapster` + `influxdb` + `grafana` for 5.x, 6.x has moved to cutting edge Prometheus, Grafana, Alertmanager and Satellite) and an authentication gateway for remote management via k8s API or SSH.
+`gravity` is self-contained k8s packaging solution. The installer includes k8s binaries and its dependencies, application container images, a private Docker registry, a monitoring and alerting system and an authentication gateway for remote management via k8s API or SSH.
+
+Gravity 5.x monitoring is based on `heapster` + `influxdb` + `grafana`.
+
+Gravity 7.x has adopted cutting edge `Prometheus` which uses `node-exporter` to collect hardware and OS metrics and `kube-state-metrics` to collect metrics about various `k8s` resources, `Grafana`, `Alertmanager` and Satellite.
 
 ---
 ```bash

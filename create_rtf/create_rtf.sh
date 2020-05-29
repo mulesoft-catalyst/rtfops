@@ -4,9 +4,7 @@
 # get activation data for automation
 
 # set environment variables
-if [[ -f ./env ]]; then
-    source ./env
-fi
+[[ -f ../env ]] && source ../env
 
 ENDPOINT="https://anypoint.mulesoft.com/runtimefabric/api/organizations/${ORG_ID}/fabrics"
 
