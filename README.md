@@ -16,6 +16,7 @@ The scripts leverage Anypoint Platform REST APIs (CloudHub, Runtime Fabric and A
 - [ ] Add support for sharing RTF across Organisation's Business Groups
 - [ ] Add support for basic Edge Ingress operations
 - [ ] Add support for Secrets Manager
+- [ ] Add support for Disabling / Enabling Log Forwarding
 
 
 Happy Muley, happy Mule ;-)
