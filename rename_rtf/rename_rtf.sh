@@ -5,7 +5,7 @@
 # set environment variables
 [[ -f ../env ]] && source ../env
 
-ENDPOINT="https://anypoint.mulesoft.com/runtimefabric/api/organizations/${ORG_ID}/fabrics/${DEPLOYMENT_ID}"
+ENDPOINT="https://anypoint.mulesoft.com/runtimefabric/api/organizations/${ORG_ID}/fabrics/${FABRIC_ID}"
 
 printf "${ENDPOINT} \n"
 
