@@ -17,7 +17,7 @@ The scripts leverage Anypoint Platform REST APIs (CloudHub, Runtime Fabric and A
 - [ ] Add support for basic Edge Ingress operations
 - [ ] Add support for Secrets Manager
 - [x] Add support for Disabling / Enabling Log Forwarding for Anypoint Monitoring
-- [ ] Add support for Starting / Stopping applications
+- [x] Add support for Starting / Stopping applications
 
 
 Happy Muley, happy Mule ;-)
