@@ -1,46 +1,51 @@
 {
-  "application": {
-    "ref": {
-      "artifactId": "f87m2-1.0.0-mule-application",
-      "groupId": "ab6e8f37-5fef-4fbe-a404-50a3bd10a12",
-      "packaging": "jar",
-      "version": "1.0.0"
-    },
-    "configuration": {
-      "mule.agent.application.properties.service": {
-        "applicationName": "f87m2",
-        "properties": null
-      }
-    },
-    "desiredState": "STARTED"
-  },
-  "name": "f87m2",
+  "name": "sys-api-f87",
+
   "target": {
+    "provider": "MC",
+    "targetId": "___FABRIC_ID___",
     "deploymentSettings": {
       "resources": {
         "cpu": {
-          "limit": "1000m",
-          "reserved": "50m"
+          "reserved": "50m",
+          "limit": "1000m"
         },
         "memory": {
-          "limit": "2000Mi",
-          "reserved": "1000Mi"
+          "reserved": "1000Mi",
+          "limit": "1500Mi"
+        }
+      },
+      "clustered": false,
+      "enforceDeployingReplicasAcrossNodes": true,
+      "http": {
+        "inbound": {
+          "publicUrl": "sys-api-f87.band.it"
         }
       },
       "jvm": {},
-      "runtimeVersion": "4.2.2:v1.2.93",
-      "http": {
-        "inbound": {
-          "publicUrl": "f87m2.handsonlab.pro"
-        }
-      },
-      "updateStrategy": "rolling",
-      "clustered": false,
+      "runtimeVersion": "4.2.2:v1.2.107",
       "lastMileSecurity": false,
-      "enforceDeployingReplicasAcrossNodes": true
+      "updateStrategy": "rolling",
+      "disableAmLogForwarding": true
     },
-    "provider": "MC",
-    "replicas": 3,
-    "targetId": "6d0d3abd-21b8-4b72-2bb2-f27e6eca4570"
+    "replicas": 3
+  },
+  
+  "application": {
+    "ref": {
+      "groupId": "___ORG_ID___",
+      "artifactId": "f87m2-1.0.0-mule-application",
+      "version": "1.0.0",
+      "packaging": "jar"
+    },
+    "assets": [],
+    "desiredState": "STARTED",
+    "configuration": {
+      "mule.agent.application.properties.service": {
+        "applicationName": "sys-api-f87",
+        "properties": {},
+        "secureproperties": {}
+      }
+    }
   }
 }
