@@ -19,11 +19,11 @@
       "enforceDeployingReplicasAcrossNodes": true,
       "http": {
         "inbound": {
-          "publicUrl": "sys-api-f87.band.it"
+          "publicUrl": "sys-api-f87.api.shop"
         }
       },
       "jvm": {},
-      "runtimeVersion": "4.2.2:v1.2.109",
+      "runtimeVersion": "4.2.2:v1.2.111",
       "lastMileSecurity": false,
       "updateStrategy": "rolling",
       "disableAmLogForwarding": true
