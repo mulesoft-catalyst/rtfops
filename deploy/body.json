@@ -23,7 +23,7 @@
         }
       },
       "jvm": {},
-      "runtimeVersion": "4.2.2:20201020",
+      "runtimeVersion": "4.2.2:20210304-1",
       "lastMileSecurity": false,
       "updateStrategy": "rolling",
       "disableAmLogForwarding": true
