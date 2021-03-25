@@ -10,6 +10,8 @@ The scripts leverage Anypoint Platform REST APIs (CloudHub, Runtime Fabric and A
 
 `rtfops` scripts are actively maintained and constantly evolving.
 
+> NOTE: `rtfops` works for both RTF Appliance and BYO k8s (`EKS`, `AKS`, `GKE`, OpenShift is not yet supported but on the roadmap) models.
+
 ## To-Do List
 
 - [ ] Add support for associating RTF with Anypoint Platform Environments
