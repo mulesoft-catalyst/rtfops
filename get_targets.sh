@@ -5,7 +5,7 @@
 # set environment variables
 [[ -f ./env ]] && source ./env
 
-ENDPOINT="https://anypoint.mulesoft.com/runtimefabric/api/organizations/${ORG_ID}/targets"
+ENDPOINT="https://${BASE_URL}/runtimefabric/api/organizations/${ORG_ID}/targets"
 
 curl -Lks ${ENDPOINT} \
     -H "Authorization: Bearer ${TOKEN}" \

@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-ENDPOINT="https://anypoint.mulesoft.com/accounts/login"
+ENDPOINT="https://${BASE_URL}/accounts/login"
 
 # read username from stdin
 read -p "Enter username: " USERNAME

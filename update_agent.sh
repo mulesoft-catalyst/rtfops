@@ -13,7 +13,7 @@ AGENT_VERSION=$1
 # set environment variables
 [[ -f ./env ]] && source ./env
 
-ENDPOINT="https://anypoint.mulesoft.com/runtimefabric/api/organizations/${ORG_ID}/fabrics/{FABRIC_ID}"
+ENDPOINT="https://${BASE_URL}/runtimefabric/api/organizations/${ORG_ID}/fabrics/{FABRIC_ID}"
 
 curl -Lks ${ENDPOINT} \
     -X PATCH \

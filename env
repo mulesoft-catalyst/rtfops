@@ -26,6 +26,11 @@
 #                                                                    #
 ######################################################################
 # Anypoint Platform CloudHub
+
+# Base URL
+
+export BASE_URL="anypoint.mulesoft.com"
+
 # Runtime Fabric environment variables
 
 ORG_ID=

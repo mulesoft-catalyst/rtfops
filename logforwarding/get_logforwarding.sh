@@ -2,7 +2,7 @@
 
 [[ -f ../env ]] && source ../env
 
-ENDPOINT="https://anypoint.mulesoft.com/runtimefabric/api/organizations/${ORG_ID}/fabrics/${FABRIC_ID}/logforwarding"
+ENDPOINT="https://${BASE_URL}/runtimefabric/api/organizations/${ORG_ID}/fabrics/${FABRIC_ID}/logforwarding"
 
 # Get logfowarding status
 curl -Lks ${ENDPOINT} \
